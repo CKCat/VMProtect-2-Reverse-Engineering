@@ -1,0 +1,5 @@
+[subdir.vmprofiler]
+
+[target.cli-parser]
+type = "interface"
+include-directories = ["cli-parser"]

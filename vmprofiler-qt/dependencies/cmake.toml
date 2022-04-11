@@ -1,0 +1,5 @@
+[subdir.vmprofiler]
+
+[target.ia32-doc]
+type = "interface"
+include-directories = ["ia32-doc/out/"]

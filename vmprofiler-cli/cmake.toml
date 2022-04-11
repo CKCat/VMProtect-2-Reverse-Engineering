@@ -1,0 +1,17 @@
+[project]
+name = "vmprofiler-cli"
+
+[subdir.dependencies]
+[target.vmprofiler-cli]
+type = "executable"
+
+sources = [
+    "src/main.cpp",
+    "src/icon.rc"
+]
+
+link-libraries = [
+    "cli-parser",
+    "vmprofiler",
+	"linux-pe"
+]
